@@ -1,16 +1,8 @@
-import time
-
-import numpy as np
-
-from alr_sim.gyms.gym_controllers import GymCartesianVelController, GymTorqueController
-from alr_sim.controllers import Controller
+from alr_sim.gyms.gym_controllers import GymTorqueController
+#from alr_sim.controllers import Controller
 from alr_sim.sims.SimFactory import SimRepository
-#from envs.reach_env.reach import ReachEnv
 from meta_world.reach_env import ReachEnv
 
-from alr_sim.core.logger import RobotPlotFlags
-
-import random
 
 
 if __name__ == "__main__":

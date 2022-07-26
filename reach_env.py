@@ -1,10 +1,7 @@
 import numpy as np
 import gym
 from gym.spaces import Box as SamplingSpace
-
-from alr_sim.controllers.Controller import ControllerBase
 from alr_sim.core import Scene
-# from alr_sim.gyms.gym_env_wrapper import GymEnvWrapper
 from alr_sim.gyms.gym_utils.helpers import obj_distance
 from alr_sim.sims.universal_sim.PrimitiveObjects import Sphere
 
